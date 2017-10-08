@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NoRefresh.iml" filepath="$PROJECT_DIR$/NoRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/happy02/happy02.iml" filepath="$PROJECT_DIR$/happy02/happy02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myxiangmu.iml" filepath="$PROJECT_DIR$/myxiangmu.iml" />
+    </modules>
+  </component>
+</project>

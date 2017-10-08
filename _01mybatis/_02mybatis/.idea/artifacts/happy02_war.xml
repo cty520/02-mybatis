@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="happy02:war">
+    <output-path>$PROJECT_DIR$/happy02/target</output-path>
+    <root id="archive" name="Smbms-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="happy02:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Cofing 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.happy.Dao.ITeacherDAO">
+    <resultMap id="TeacherMapper" type="Teacher">
+
+        <result property="tname" column="tname"/>
+        <collection property="stus" ofType="Sttudent">
+            <result property="sname" column="sname"/>
+        </collection>
+
+    </resultMap>
+    <select id="getTeacherById" resultMap="TeacherMapper">
+        select sname,tname FROM  student66,teacher66.teacher_student66
+        WHERE  student66.sid=teacher_student66.sid AND  teacher66.tid=teacher_student66.tid
+        and teacher66.tid=#{tid}
+    </select>
+</mapper>
